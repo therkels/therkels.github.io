@@ -17,13 +17,13 @@ const ExperienceEntry: React.FC<ExperienceEntryProps> = ({
 }) => {
   return (
     <div className="border-b border-gray-300 pb-4 mb-4">
-      <h3 className="text-lg font-semibold text-gray-800">{title}</h3>
-      <div className="flex justify-between text-sm text-gray-600">
+      <h3 className="text-lg font-semibold text-gray-100">{title}</h3>
+      <div className="flex justify-between text-sm text-gray-200">
         <span>{company}</span>
         <span>{location}</span>
       </div>
-      <p className="text-sm text-gray-500">{duration}</p>
-      <ul className="list-disc list-inside mt-2 text-gray-700">
+      <p className="text-sm text-gray-200">{duration}</p>
+      <ul className="list-disc list-inside mt-2 text-gray-200">
         {description.map((item, index) => (
           <li key={index}>{item}</li>
         ))}
