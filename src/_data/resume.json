@@ -1,0 +1,114 @@
+{
+    "personal_info": {
+      "name": "Jakob Therkelsen",
+      "email": "therkels@umich.edu",
+      "phone": "(419) 376-4764"
+    },
+    "education": [
+      {
+        "institution": "University of Michigan",
+        "dates": "Aug. 2023 - Dec. 2025",
+        "degree": "MS in Computer Science Engineering",
+        "gpa": "3.88/4.00"
+      },
+      {
+        "institution": "Michigan State University",
+        "dates": "Aug. 2017 - May 2022",
+        "degree": "BS in Computer Science Engineering",
+        "gpa": "4.00/4.00",
+        "additional": "Honors College"
+      }
+    ],
+    "experience": [
+      {
+        "title": "Integration Software Engineer",
+        "company": "General Mills",
+        "location": "Remote",
+        "dates": "Jul. 2023 - Sep. 2024",
+        "description": [
+          "Implemented JWT-based authentication for GitHub Actions to improve maintainability for over 300 enterprise projects",
+          "Developed an internal Golang-based API to support automation for handling product and service requests",
+          "Integrated Datadog with Composer instances to enable 33% faster response time to unhealthy instances"
+        ]
+      },
+      {
+        "title": "Advanced Data Engineer",
+        "company": "General Mills",
+        "location": "Remote",
+        "dates": "Jul. 2022 - Jul. 2023",
+        "description": [
+          "Assisted in data pipeline management for BI tooling and maintained SQL scripts for data analysis",
+          "Developed Airflow DAGs to improve data visibility and error tracing",
+          "Debugged Scala scripts for data changes and inconsistencies in product data pipelines"
+        ]
+      },
+      {
+        "title": "Software Engineer Intern",
+        "company": "VEST, INC.",
+        "location": "Remote",
+        "dates": "Sep. 2021 - May 2022",
+        "description": [
+          "Benchmarked XML file conversion times for CAD files, improving runtime by 40% by implementing faster methods and utilizing JSON format",
+          "Developed ThreeJS scripts to enhance web-based CAD file 3D editing features"
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "Ghost in the Shell: Runtime Prompting Framework",
+        "year": "2024",
+        "description": "Developed an experimental compiler pass and parallel runtime thread process rocess to analyze branch prediction, runtime bottle necks, and dynamic error detection using Python's tracing library and LLM API integrations.",
+        "tools_used": [
+          "Jaclang (Python superset)",
+          "Python",
+          "Gemini API"
+        ]
+      },
+      {
+        "name": "Demographic Prediction Using NLP Techniques",
+        "year": "2024",
+        "description": "Processed a local news dataset and applied various NLP techniques to predict demographics using multi-label classification. Used both simple classification and modern LLM techniques.",
+        "tools_used": [
+          "Python (PyTorch, scikit-learn, Pandas, NumPy)"
+        ]
+      },
+      {
+        "name": "Parallel Dynamic Theta*",
+        "year": "2023",
+        "description": "Implemented a parallel 2D graph traversal with a dynamic endpoint using OpenMP. Modified approximation heuristic and used over-decomposition of the traversal space to get speedups up to 50%",
+        "tools_used": [
+          "C++",
+          "OpenMP"
+        ]
+      }
+    ],
+    "technologies": {
+      "languages": [
+        "Python",
+        "C/C++",
+        "TS/JS",
+        "SQL",
+        "Go",
+        "Scala",
+        "C#",
+        "Terraform"
+      ],
+      "development_and_deployment": [
+        "LLVM",
+        "OpenMP",
+        "CUDA",
+        "MPI",
+        "Datadog",
+        "Kubernetes",
+        "Docker",
+        "GCP",
+        "AWS"
+      ],
+      "data": [
+        "MongoDB",
+        "Neo4j",
+        "MySQL",
+        "BigQuery"
+      ]
+    }
+  }
