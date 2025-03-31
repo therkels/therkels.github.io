@@ -13,7 +13,7 @@ export default function Home() {
           title={entry.title}
           company={entry.company}
           location={entry.location}
-          duration={entry.duration}
+          duration={entry.dates}
           description={entry.description}
         />
       )) }
